@@ -5,7 +5,7 @@ import './App.css';
 import SearchIcon from './search.svg';
 
 const apikey = process.env.REACT_APP_API_URL;
-const API_URL = `http://omdbapi.com?apikey=${apikey}`;
+const API_URL = `https://omdbapi.com?apikey=${apikey}`;
 console.log(API_URL);
 
 const App = () => {
